@@ -26,6 +26,8 @@ namespace PkgEditor.Views
     private int attribute2Flags = 0;
     private Value selectedValue = null;
 
+    [System.ComponentModel.Browsable(false)]
+    [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
     public bool Modified
     {
       get => modified;

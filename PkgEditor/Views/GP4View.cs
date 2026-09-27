@@ -23,6 +23,8 @@ namespace PkgEditor.Views
     private string path;
     private bool loaded = false;
     private bool modified = false;
+    [System.ComponentModel.Browsable(false)]
+    [System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
     public bool Modified
     {
       get => modified;

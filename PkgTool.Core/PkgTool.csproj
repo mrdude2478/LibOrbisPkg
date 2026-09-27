@@ -2,19 +2,19 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <StartupObject>PkgTool.Program</StartupObject>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="..\PkgTool\Program.cs" Link="Program.cs" />
-    <Compile Include="..\PkgTool\Properties\AssemblyInfo.cs" Link="Properties\AssemblyInfo.cs" />
+
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LibOrbisPkg.Core\LibOrbisPkg.Core.csproj" />
+    <ProjectReference Include="..\LibOrbisPkg.Core\LibOrbisPkg.csproj" />
   </ItemGroup>
 
   <ItemGroup>

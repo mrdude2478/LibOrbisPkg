@@ -3,11 +3,11 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("LibOrbisPkgTests")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Unit tests for LibOrbisPkg.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Maxton")]
 [assembly: AssemblyProduct("LibOrbisPkgTests")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright © 2018 Maxton")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
